@@ -22,7 +22,8 @@ programa {
 		        }
 		}enquanto(numero!=x e tentativas<10)
 		se(tentativas==10){
-		    escreva("VOCE PERDEU! =(")
+		    escreva("VOCE PERDEU! =(\n")
+		    escreva("O número era :"+x)
 		}
 	}
 }
@@ -31,7 +32,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 851; 
+ * @POSICAO-CURSOR = 887; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
